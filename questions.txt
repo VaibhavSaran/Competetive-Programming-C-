@@ -1,0 +1,119 @@
+Q1) Problem Statement:- 
+Take a String value in str variable from keyboard.
+Find out given string is palindrome or not.
+If given string is not palindrome then try to make given string palindrome with minimum addition.
+Test-Cases
+"Hello"     output answer is "hellolleh"
+"abb"		output answer is "abba"  
+"aaabb"		output answer is "bbaaabb"
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q2) Problem-Statement:
+Virendra is playing a mobile game that starts with consecutively numbered clouds.
+Some of the clouds are dark and others are white.He can jump on any white cloud having a number that is equal to the 
+number of current cloud plus 1 or 2.He must avoid the dark cloud.Determine the minimum number of jumps it will take virendra from 
+him starting position to the last cloud.it always posible to win the game.
+For each game virendra will get an array of cloud numbered 0 if they are safe or 1 if they must be avoided.
+for example c=[0,1,0,0,0,1,0] indexed from 0...6.the number on each cloud is its index in the last 
+so he must avoid the clouds at index 1 and 5.
+He could follow the following two path:0->2->4->6 or 0->2->3->4->6.the first path takes 3 jumps while the second takes 4.
+
+Input:- The first line contain an integer n,the total number of cloud.
+		The second line contains n space-separted binary integers describing cloud c[i] where 0<= i <n
+Constraints:
+1) 2<= n <=100
+2) c[i]={0,1}
+3) c[0]=c[n-1]=0
+
+Example
+n=7
+array c=0 0 1 0 0 1 0
+
+Result will be 4
+Output Format: 0->1->3->4->6
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q3) Given an read-only array of size n, find all elements in array that appear more than n/k times. 
+For example, if the input arrays is {3, 1, 2, 2, 1, 2, 3, 3} and k is 4, then the output should be [2, 3]. 
+Note that size of array is 8 (or n = 8), so we need to find all elements that appear more than 2 (or 8/4) times. 
+There are two elements that appear more than two times, 2 and 3
+
+Constraints:-
+
+1) you can not perform sorting of array
+2) you can not use nesting of loop
+3) value of k must be 2<= K < n
+4) you can not use build-in function in python for count
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q4) 3 variable hai a,b,c. kaise bhi aapas mai swap karne hai. One line code. CPP.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q5) A String said to be a special string if either of two condition is met
+1) all of the character are the same Ex. aaa
+2) all characters except the middle one are the same Ex. aaabaaa
+A special substring is any substring of a string which meets one of above criteria,
+find out how many special substrings can be formed form it.
+don't use collection data-type[list,set,map..etc]
+Example:
+str=mnonopoo
+Answer=12
+Temp-result={m,n,o,n,o,p,o,o,non,ono,opo,oo}  [Not Visible on output Screen]
+abxba answer = 8
+aaaa answer =10
+
+Hint: See manacher's algorithm
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q6) Problem-Statement:-
+You will be given a array name as "arr" of size "n",and a singal integer "k".
+You must create an array of length k from elements in arr such that its unfairness is minimized.call that array subarr.
+Unfairness of an array is calculated as: max(subarr)-min(subarr)
+where
+1) max denote the largest integer in subarr
+2) min denote the minimum integer in subarr
+as an Example,consider the array [1,4,7,2] with a k of 2.pick any two element,test subarr=[4,7]
+unfairness=max(4,7)-min(4,7)=7-4=3
+Testing for all pairs.the solution [1,2] provide the minimum unfairness.
+Example
+k=3
+size of array n=7
+arr={10,100,300,200,1000,20,30}
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q7) You have three stack of cylinders where each cylender has the same diameter.But they may very in height.you can change the height of stack by removing and discarding its topmost cylinder any number of times.
+Find the maximum possible height of the stacks such that all of the stacks are exactly the same height.this mean you must remove zero or more cylinder from the top of the three stacks until they are the same height.then print the height.The removals must be performed in such a way as to maximize of height.
+Example:-
+
+Input
+	n1=5,n2=3,n3=4
+	stack01={3,2,1,1,1} [first Element is top of stack]
+	stack02={4,3,2}
+	stack03={1,1,4,1}
+
+Result=5
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q8) Problem-Statement
+A String will be consider as a child of a another string if it can be formed by deleteing 0 or more character from the other string.
+
+Given two string of equal length,what's the longest string that can be formed such that it is a child of both?
+
+Example
+
+1)
+  Input:- "ABCD" and "ABDC"
+  Output:- 3 [ABC & ABD]
+2)
+  Input:- "ABCNCHAN" and "NOHARAAA"
+  Output:- 3 [NHA]
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q9)
