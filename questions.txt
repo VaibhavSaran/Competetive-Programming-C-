@@ -116,4 +116,21 @@ Example
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Q9)
+Q9) Virendra has several jars, each contains number of balls in it. He has just enough jars to sort each type of ball he has into
+its own jar.virendra wants to sort the balls using his sort method.
+Virendra wants to perform some number of swap operations such that:
+1) Each jars contains only balls of the same type.
+2) No two balls of the same type are located in different jars.
+You have to find out possibility of sorting balls in form as "Possible" or "Impossible".
+Constraint:-
+In a single operation, Virendra can swap two balls located in different Jars.
+Example:-
+Total Jars:- 2
+Matrix:-
+1  2
+3  3
+Output:-Impossible
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q10) 
