@@ -133,4 +133,21 @@ Output:-Impossible
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Q10) 
+Q10) Arun loves cookies and wants the sweetness of some cookies to be greater than value K. To do this, two cookies with the least sweetness are repeatedly mixed. This creates a special combined cookie with:
+sweetness=(1st Least sweet cookie + 2 X 2nd least sweet cookie).
+This occurs until all the cookies have a sweetness>=K.
+Given the sweetness of a number of cookies, determine the minimum number of operations required. If it is not possible, return -1.
+Example:
+K=9
+A=[2,7,3,6,4,6]
+Result=4
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q11) Arun wants to perform sorting of an array of size n Element with following contraints
+1) Arun don't want to use in-built function for sorting
+2) Only single for-loop or while-loop is allowed
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q12)
