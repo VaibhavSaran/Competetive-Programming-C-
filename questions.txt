@@ -150,4 +150,18 @@ Q11) Arun wants to perform sorting of an array of size n Element with following 
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Q12)
+Q12) 
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q13) Arun and sangeeta have created a digits game. They pick a number and check to see if it is a power of 2. If it is, they
+divide it by 2. If not, they reduce it by the next lower number which is a power of 2. Whoever reduces the number to 1 wins the
+game.Arun always starts the game.you have to find out who win the game? Note:-Don't use any built-in function
+Example: n=132
+It's Arun's turn first.he determines that 132 is not a power of 2. The next lower power of 2 is 128,so he subtracts that from 132
+and passes 4 to sangeeta.4 is a power of 2, so sangeeta divides it by 2 and passes 2 to arun.Likewise,2 is a power so she divides
+it by 2 and reaches 1.Arun wins the game.Hey Arun congratulations dear. 
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q14) 
