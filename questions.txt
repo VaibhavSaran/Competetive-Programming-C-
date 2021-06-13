@@ -49,7 +49,8 @@ Constraints:-
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Q4) 3 variable hai a,b,c. kaise bhi aapas mai swap karne hai. One line code. CPP.
+Q4) Given 3 Varaibles swap them using 1 line of code. For python dont use a,b,c=c,a,b.
+Hint: Bit manipulation, arithmetic manipulation
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -66,7 +67,8 @@ Temp-result={m,n,o,n,o,p,o,o,non,ono,opo,oo}  [Not Visible on output Screen]
 abxba answer = 8
 aaaa answer =10
 
-Hint: See manacher's algorithm
+References: manacher's algorithm, Given a string, find the number of substrings which are palindromes 
+
 -----------------------------------------------------------------------------------------------------------------------------------
 
 Q6) Problem-Statement:-
@@ -86,27 +88,26 @@ arr={10,100,300,200,1000,20,30}
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Q7) You have three stack of cylinders where each cylender has the same diameter.But they may very in height.you can change the height of stack by removing and discarding its topmost cylinder any number of times.
-Find the maximum possible height of the stacks such that all of the stacks are exactly the same height.this mean you must remove zero or more cylinder from the top of the three stacks until they are the same height.then print the height.The removals must be performed in such a way as to maximize of height.
+Q7) You have three stack of cylinders where each cylender has the same diameter.But they may very in height.you can change the
+height of stack by removing and discarding its topmost cylinder any number of times.
+Find the maximum possible height of the stacks such that all of the stacks are exactly the same height.this mean you must remove
+zero or more cylinder from the top of the three stacks until they are the same height.then print the height.The removals must be
+performed in such a way as to maximize of height.
 Example:-
-
 Input
 	n1=5,n2=3,n3=4
 	stack01={3,2,1,1,1} [first Element is top of stack]
 	stack02={4,3,2}
 	stack03={1,1,4,1}
-
 Result=5
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
 Q8) Problem-Statement
-A String will be consider as a child of a another string if it can be formed by deleteing 0 or more character from the other string.
-
+A String will be consider as a child of a another string if it can be formed by deleteing 0 or more character from the other 
+string.
 Given two string of equal length,what's the longest string that can be formed such that it is a child of both?
-
-Example
-
+Example:
 1)
   Input:- "ABCD" and "ABDC"
   Output:- 3 [ABC & ABD]
@@ -133,7 +134,8 @@ Output:-Impossible
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Q10) Arun loves cookies and wants the sweetness of some cookies to be greater than value K. To do this, two cookies with the least sweetness are repeatedly mixed. This creates a special combined cookie with:
+Q10) Arun loves cookies and wants the sweetness of some cookies to be greater than value K. To do this, two cookies with the least
+sweetness are repeatedly mixed. This creates a special combined cookie with:
 sweetness=(1st Least sweet cookie + 2 X 2nd least sweet cookie).
 This occurs until all the cookies have a sweetness>=K.
 Given the sweetness of a number of cookies, determine the minimum number of operations required. If it is not possible, return -1.
@@ -150,7 +152,14 @@ Q11) Arun wants to perform sorting of an array of size n Element with following 
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Q12) 
+Q12) Given two integer,L and R,find the maximal value of a xor b,written a+b,where a and b satisfy the follwoing condition:
+		    L<= a <= b <=R
+Example:-
+if L=11 and R=12 then
+	11 + 11 = 0 ['+' represnt xor operation]
+	11 + 12 = 7
+	12 + 12 = 0
+Result:- 7
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -164,4 +173,55 @@ it by 2 and reaches 1.Arun wins the game.Hey Arun congratulations dear.
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Q14) 
+Q14) You have to take stack of size N Elements.and Perform Sorting of stack Element with help of only Stack-Data Strcture only.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q15) Virendra asks arun to watch movie,But arun busy in doing homework. virendra wants to help arun to finish it faster,Can you
+help virendra to understand arun's homework so he can watch movie with him?Consider an array of n distinct numbers,arr=[a[0],
+a[1]...a[n-1]].Virendra can swap any two numbers of the array any number of times. 
+An array is perfect if the sum of: |a[i]-a[i-1]| among 0< i <n is minimal.
+Given the array arr, determine and return the minimum number of swaps that should be performed in order to make the array perfect.
+Example: arr=[7,15,12,13]
+One minimal array is [3,7,12,15].to get this result, virendra performed the following swaps:
+    Swap      Result
+          [7, 15, 12, 3]
+    3 7   [3, 15, 12, 7]
+    7 15  [3, 7, 12, 15]
+It took 2 swaps to make the array perfect.This is minimal among the choices of perfect arrays possible.
+Example:-
+n=4           
+arr=[2 5 3 1]     
+Result:- 2
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q16) Input any string and remove all adjcent duplicates characters in string with help of stack only.
+Example:-
+str="aaafghyyybbcrrr"
+Result="afghybcr"
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q17) Find the number of ways that a given integer X,can be expressed as the sum of the Nth powers of unique, natural numbers.
+For example, if X=13 and N=2,
+we have to find all combinations of unique squares adding up to 13.The only solution is 2**2 + 3**2.
+output:- 1
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q18) JDA is planning to demolish a number of old, unoccupied buildings and construct a shopping mall in their place. Your task is
+to find the largest solid area in which the mall can be constructed.
+There are a number of buildings in a certain two-dimensional landscape. Each building has a height, given by h[i] where 1<=i<=n.
+If you join K adjacent buildings, they will form a solid rectangle of area k x min(h[i],h[i+1].....h[n]).
+Example
+h=[3,2,3]
+A rectangle of height h=2 and length k=3  can be constructed within the boundaries. The area formed is h x k=2*3=6.
+Example:- 
+n = 5
+h = [1, 2, 3, 4, 5]
+Result=9
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q19) 
