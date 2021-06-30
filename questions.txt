@@ -224,4 +224,214 @@ Result=9
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Q19) 
+Q19) Find out all perutation of string with help of recursion only.
+Example:-
+str="XYZ"
+output=["XYZ","XZY","YXZ","YZX","ZXY","ZYX"]
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q20) Jodhpur is a one-dimensional city with houses aligned along a road. The collector wants to install mobile towers on the roofs
+of the city's houses. Each tower has a fixed range meaning it can transmit a signal to all houses within that number of units 
+distance away.
+Given a map of Jodhpur and the tower range, determine the minimum number of towers so that every house is within range of at least 
+one tower. Each tower must be installed on top of an existing house.
+Example:
+Array=[3,4,5,8,12]
+Range=1
+Result=3
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q21) Given an m x n 2D binary Matrix which represents a Map of '1's (land) and '0's (water), return the number of islands.
+An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four 
+edges of the grid are all surrounded by water.
+Input: grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+Output: 1
+
+Input: grid = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]
+Output: 3
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q22) Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after
+removing k digits from num.
+Example:
+Input: num = "1542218", k = 3
+Output: "1218"
+
+Input: num = "10312", k = 1
+Output: "312"
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q23) Given an m x n binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q24) Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+An input string is valid if:
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Example:-
+Input: s = "()[]{}"
+Output: true
+
+Input: s = "([)]"
+Output: false
+
+Input: s = "{[]}"
+Output: true
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q25) You are given an m x n grid where each cell can have one of three values:
+0 representing an empty cell,
+1 representing a fresh orange, or
+2 representing a rotten orange.
+Every minute, any fresh orange that is 4-directionally adjacent to a rotten orange becomes rotten.
+Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q26) Given an array of integers nums and an integer k, return the total number of continuous subarrays whose sum equals to k.
+Example:
+array = [1,1,1], k = 2
+Output: 2
+
+array = [1,2,3], k = 3
+Output: 2
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q27) Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of
+all numbers along its path.
+Note: You can only move either down or right at any point in time.
+grid =  [
+			[1,3,1],
+			[1,5,1],
+			[4,2,1]
+		]
+Output: 7
+Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q28) Given a binary array nums, return the maximum length of a contiguous subarray with an equal number of 0 and 1.
+Example:
+nums=[0,1,1,0,1]
+Output: 4
+
+nums=[0,1,0]
+Output: 2
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q29) Given a matrix of m x n elements,return all elements of the matrix in spiral order.
+For example, given the following matrix:
+[
+ [ 1, 2, 3 ],
+ [ 4, 5, 6 ],
+ [ 7, 8, 9 ]
+]
+You should return [1,2,3,6,9,8,7,4,5].
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q30) There are N children standing in a line. Each child is assigned a rating value. You are giving candies to these children 
+subjected to the following requirements:
+1. Each child must have at least one candy.
+2. Children with a higher rating get more candies than their neighbors.
+What is the minimum candies you must give?
+Example
+Input: ratings = [1,2,2]
+Output: 4
+
+Input: ratings = [1,0,2]
+Output: 5
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q31) Given a triangle, find the minimum path sum from top to bottom. Each step you may move to adjacent numbers on the row below.
+For example, given the following triangle
+
+[
+     [4],
+    [2,4],
+   [6,5,7],
+  [4,1,8,3]
+]
+The minimum path sum from top to bottom is 12 (4 + 2 + 5 + 1 = 12).
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q32) Design and implement a logic to print the following pattern
+
+1
+2   1
+4   2  1
+8   4  2  1
+16  8  4  2  1
+32  16 8  4  2  1
+64  32 16 8  4  2  1
+128 64 32 16 8  4  2  1
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q33) Design and implement a logic to print the following pattern
+
+4 4 4 4 4 4 4
+4 3 3 3 3 3 4
+4 3 2 2 2 3 4
+4 3 2 1 2 3 4
+4 3 2 2 2 3 4
+4 3 3 3 3 3 4
+4 4 4 4 4 4 4
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q34) Design and implement a logic to print the following pattern
+
+* *
+* *
+* * * * 
+* * * *
+* * * * * *
+* * * * * *
+* * * * * * * *
+* * * * * * * *
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q35) Design and implement a logic to print the following pattern
+
+*
+ * *
+   * * *
+      * * * * 
+   * * *
+ * *
+*
+hint: works only for odd numbers
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q36) Design and implement a logic to print the following pattern
+
+* * * * *
+  *   *
+    *
+  *   *
+* * * * *  
+
+-----------------------------------------------------------------------------------------------------------------------------------
