@@ -1,0 +1,5 @@
+# Ignoring temp files
+temp.cpp
+
+# Ignoring temporary C++ executable
+a.exe
